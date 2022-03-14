@@ -1,0 +1,89 @@
+/* GLOBAL STYLING */
+
+body {
+    font-family: sans-serif;
+    background-color: #FF9A8B;
+    background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+}
+
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* MENU */
+
+.menu {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+}
+
+.menu_logo-img {
+    height: 2rem;
+    transition: 0.3s;
+}
+
+.menu_logo-img:hover {
+    opacity: 0.8;
+}
+
+.navigation {
+    display: flex;
+    gap: 2rem;
+}
+
+.menu_links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.menu_buttons {
+    display: flex;
+    gap: 0.8rem;
+}
+
+.menu_button {
+    padding: 12px 24px;
+    border-radius: 100vh;
+    transition: 0.3s;
+}
+
+.menu_button:hover {
+    opacity: 0.8;
+}
+
+.sign-up {
+    background-color: #fff;
+    color: #FF9A8B;
+}
+
+.sign-in {
+    border: 1px solid #fff;
+    color: #fff;
+}
